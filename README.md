@@ -38,18 +38,38 @@ Coverage : Web UI
 1. Init File Project
 ```npm init -y```
 2.  Install Appium Driver
-```npm install appium --save-dev```\n
-```npm install @wdio/appium-service appium```\n
-```npm install appium-uiautomator2-driver --save-dev```
+```
+npm install appium --save-dev
+```
+```
+npm install @wdio/appium-service appium
+```
+```
+npm install appium-uiautomator2-driver --save-dev
+```
 4.  Install Chrome driver
-```npm install chromedriver --save-dev```\n
-```npm install wdio-chromedriver-service --save-dev```
+```
+npm install chromedriver --save-dev
+```
+```
+npm install wdio-chromedriver-service --save-dev
+```
 6.  Install Other Dependencies
-```npm install @wdio/cli```\n
-```npm install chai --save-dev```\n
-```npm install axios --save-dev```\n
-```npm install selenium-webdriver --save-dev```\n
-```npm install @wdio/allure-reporter --save-dev```\n
+```
+npm install @wdio/cli
+```
+```
+npm install chai --save-dev
+```
+```
+npm install axios --save-dev
+```
+```
+npm install selenium-webdriver --save-dev
+```
+```
+npm install @wdio/allure-reporter --save-dev
+```
 
 ## Usage
 
