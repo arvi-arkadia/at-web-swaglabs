@@ -1,0 +1,26 @@
+{
+  "name": "at-web-swaglabs",
+  "version": "1.0.0",
+  "description": "Swag Labs UI AUTOMATION using Webdriver IO and Javascript\r Coverage : Web UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^9.4.4",
+    "@wdio/appium-service": "^9.4.5",
+    "@wdio/cli": "^9.4.5",
+    "@wdio/cucumber-framework": "^9.4.4",
+    "@wdio/local-runner": "^9.4.5",
+    "@wdio/spec-reporter": "^9.4.4",
+    "@wdio/visual-service": "^6.3.0",
+    "appium": "^2.13.1",
+    "appium-uiautomator2-driver": "^3.9.6",
+    "chai": "^5.1.2",
+    "chromedriver": "^131.0.4",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
