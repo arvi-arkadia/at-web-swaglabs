@@ -34,6 +34,23 @@ Coverage : Web UI
 2. cd to the root directory and run 
 ```npm run install```
 
+``Manual Installation Webdriver Selenium and Appium``
+1. Init File Project
+```npm init -y```
+2.  Install Appium Driver
+```npm install appium --save-dev```
+```npm install @wdio/appium-service appium```
+```npm install appium-uiautomator2-driver --save-dev```
+4.  Install Chrome driver
+```npm install chromedriver --save-dev```
+```npm install wdio-chromedriver-service --save-dev```
+6.  Install Other Dependencies
+```npm install @wdio/cli```
+```npm install chai --save-dev```
+```npm install axios --save-dev```
+```npm install selenium-webdriver --save-dev```
+```npm install @wdio/allure-reporter --save-dev```
+
 ## Usage
 
 1. For Web version, run using command below
