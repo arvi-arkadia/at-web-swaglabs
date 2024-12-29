@@ -129,4 +129,5 @@ npx wdio run [test config] --mochaOpts.grep [keyword]
 ```
 
 Example :
-`npx wdio run ./wdio.mobile.conf.js --mochaOpts.grep "putaway" `
+`npx wdio run ./wdio.mobile.conf.js --mochaOpts.grep "debug" `
+`npx wdio run wdio.conf.js --cucumberOpts.tagExpression="@debug" `

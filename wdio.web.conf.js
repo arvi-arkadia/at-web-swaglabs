@@ -58,7 +58,11 @@ export const config = {
 
   framework: "cucumber", // Test framework
   cucumberOpts: {
-    require: ["./features/**/c01-login.js"], // Path to step definitions
+    require: [
+      "./features/shared-steps/**/**.js", // Shared step definitions
+      "./features/login/**/**.js",
+      // "./features/login/**/*.js", // Feature-specific step definitions
+    ], // Path to step definitions
     backtrace: false,
     requireModule: [],
     dryRun: false,
